@@ -12,17 +12,6 @@ import {
   FaFolderOpen,
   FaLightbulb,
   FaKeyboard,
-  FaLock,
-  FaListAlt,
-  FaServer,
-  FaUserShield,
-  FaLaptopCode,
-  FaDatabase,
-  FaShieldAlt,
-  FaRocket,
-  FaCheckCircle,
-  FaBug,
-  FaToolbox,
   FaSearch,
   FaProjectDiagram,
   FaWrench
@@ -46,20 +35,6 @@ const iconMap = {
   'Depuración con el inspector': <FaSearch style={{ marginRight: 8 }} />,
   'Casos prácticos de uso': <FaProjectDiagram style={{ marginRight: 8 }} />,
   'Herramientas relacionadas': <FaWrench style={{ marginRight: 8 }} />,
-
-  // Gestor de Contraseñas
-  '¿Qué es y por qué usarlo?': <FaLock style={{ marginRight: 8 }} />,
-  'Tipos de gestores': <FaListAlt style={{ marginRight: 8 }} />,
-  'Requisitos técnicos': <FaServer style={{ marginRight: 8 }} />,
-  'Estructura del sistema': <FaCubes style={{ marginRight: 8 }} />,
-  'Backend y seguridad': <FaUserShield style={{ marginRight: 8 }} />,
-  'Frontend y experiencia de usuario': <FaLaptopCode style={{ marginRight: 8 }} />,
-  'Cifrado y almacenamiento': <FaDatabase style={{ marginRight: 8 }} />,
-  'Autenticación en dos pasos': <FaShieldAlt style={{ marginRight: 8 }} />,
-  'Deploy y pruebas': <FaRocket style={{ marginRight: 8 }} />,
-  'Buenas prácticas de uso': <FaCheckCircle style={{ marginRight: 8 }} />,
-  'Errores comunes': <FaBug style={{ marginRight: 8 }} />,
-  'Herramientas recomendadas': <FaToolbox style={{ marginRight: 8 }} />,
 };
 
 export default function DocSidebarItemLinkWrapper(props) {
