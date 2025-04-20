@@ -6,6 +6,10 @@
     transition: all 0.3s ease;
   }
 
+  .sidebarViewport_aRkj{
+    border-right: 1px solid var(--ifm-color-primary);
+  }
+
   .theme-doc-sidebar-item-link:hover {
     transform: translateX(7px);
   }

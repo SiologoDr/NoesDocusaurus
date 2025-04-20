@@ -1,10 +1,32 @@
-/**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
- */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;500&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css');
 
-/* You can override the default Infima variables here. */
+/* Icono GitHub estilo moderno */
+.header-github-link::before {
+  content: "\f09b"; /* GitHub */
+  font-family: "Font Awesome 6 Brands"; /* <-- Asegúrate que sea Brands */
+  font-weight: 400;
+  font-size: 1.2rem; /* <-- Tamaño un poco más grande */
+  margin-right: 6px;
+  display: inline-block;
+}
+
+
+/* LinkedIn texto + ícono */
+.header-linkedin-link::before {
+  content: "\f08c";
+  font-family: "Font Awesome 6 Brands";
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-right: 6px;
+}
+
+/* Eliminar el ícono de enlace externo (flecha) */
+svg.iconExternalLink_nPIU {
+  display: none !important;
+}
+
+
 :root {
   --ifm-color-primary: #2e8555;
   --ifm-color-primary-dark: #29784c;
@@ -27,4 +49,60 @@
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+.navbar{
+  border-bottom: 2px solid var(--ifm-color-primary);
+}
+
+.navbar__link {
+  position: relative;
+  color: #474747;
+  transition: color 0.3s ease;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.navbar__link:hover {
+  color: var(--ifm-color-primary);
+}
+
+.navbar__link:hover::after {
+  transform: scaleX(1);
+}
+
+.navbar__brand {
+  display: flex;
+  align-items: center;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 1.4rem;
+  letter-spacing: 0.5px;
+  transition: transform 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.navbar__title {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 1.4rem;
+  letter-spacing: 0.5px;
+  color: var(--ifm-color-primary);
+}
+
+.navbar__brand:hover {
+  transform: scale(1.05);
+  color: var(--ifm-color-primary);
+}
+
+.navbar__item {
+  margin-left: 2rem; /* Puedes aumentar si quieres más espacio */
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.navbar__inner{
+  padding-left: 2px;
+  padding-right: 40px;
 }
