@@ -3,7 +3,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Brota',
-  tagline: 'Growly are cool',
+  tagline: 'Explora desde lo básico hasta trucos avanzados del inspector de elementos. Aprende a analizar estructuras web, depurar errores y personalizar páginas como todo un experto. Todo explicado paso a paso y sin rodeos.',
   favicon: 'img/logo.png',
 
   url: 'https://your-docusaurus-site.example.com',
