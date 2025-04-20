@@ -88,50 +88,46 @@ const config = {
           },
         ],
       },
+      
       footer: {
-        style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Contenido',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Inicio',
                 to: '/docs/intro',
               },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
+                label: 'Inspector de Elementos',
+                to: '/docs/inspector-elementos/introduccion',
               },
             ],
           },
           {
-            title: 'More',
+            title: 'Comunidad',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Invitacion al Grupo de Discord',
+                href: 'https://discord.gg/H6YY37VZPA',
+              },
+            ],
+          },
+          {
+            title: 'EXTRA',
+            items: [
+              {
+                label: 'Repositorio del Proyecto en GitHub',
+                href: 'https://github.com/SiologoDr/NoesDocusaurus',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'Perfil del Autor en Linkedln',
+                href: 'https://www.linkedin.com/in/juan-ysla-cadenas-9ba852286/',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Brota, aprende de forma autonoma.`,
       },
       prism: {
         theme: prismThemes.github,
