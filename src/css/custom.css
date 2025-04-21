@@ -250,3 +250,18 @@ svg.iconExternalLink_nPIU {
   margin: 1.5rem auto;
   display: block;
 }
+
+/* Estilo para navegadores basados en WebKit (Chrome, Edge, Safari) */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--ifm-color-primary); /* Cambia este color al que prefieras */
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #e9ffec; /* Fondo claro del track */
+}

@@ -8,7 +8,7 @@ El inspector de elementos es una herramienta versátil que puede ayudarte en muc
 
 ---
 
-## 🖼️ 1. Detectar por qué una imagen no carga
+## 1. Detectar por qué una imagen no carga
 
 **Problema:** Una imagen no se muestra en tu sitio web.
 
@@ -21,7 +21,7 @@ El inspector de elementos es una herramienta versátil que puede ayudarte en muc
 
 ---
 
-## 🎨 2. Ajustar estilos rápidamente
+## 2. Ajustar estilos rápidamente
 
 **Problema:** Un botón no tiene el color o tamaño que esperas.
 
@@ -33,7 +33,7 @@ El inspector de elementos es una herramienta versátil que puede ayudarte en muc
 
 ---
 
-## 🧪 3. Probar cambios sin afectar el código fuente
+## 3. Probar cambios sin afectar el código fuente
 
 **Ejemplo:** Cambiar un texto, imagen o color solo en tu navegador sin alterar el código original.
 
@@ -41,7 +41,7 @@ Ideal para hacer prototipos o mostrar cambios antes de implementarlos.
 
 ---
 
-## 🔍 4. Verificar la accesibilidad
+## 4. Verificar la accesibilidad
 
 1. Haz clic en un elemento y revisa si tiene etiquetas `alt`, `aria-label`, o encabezados bien jerarquizados.
 2. Asegúrate de que el contraste de colores sea legible.
@@ -49,7 +49,7 @@ Ideal para hacer prototipos o mostrar cambios antes de implementarlos.
 
 ---
 
-## 📱 5. Revisar diseño en dispositivos móviles
+## 5. Revisar diseño en dispositivos móviles
 
 1. Abre DevTools y haz clic en el ícono de dispositivo (o presiona `Ctrl + Shift + M`).
 2. Cambia entre tamaños de pantalla como iPhone, iPad o define uno personalizado.

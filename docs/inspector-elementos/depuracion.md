@@ -16,7 +16,7 @@ Depurar (o hacer debugging) significa encontrar y corregir errores en el código
 
 ## Herramientas clave para la depuración
 
-### 1. **Consola**
+### 1. Consola
 La consola muestra mensajes del navegador como errores, advertencias y logs del desarrollador.
 
 - Puedes escribir código JavaScript en tiempo real.
@@ -27,7 +27,7 @@ La consola muestra mensajes del navegador como errores, advertencias y logs del 
 
 ---
 
-### 2. **Sources**
+### 2. Sources
 Aquí puedes ver y editar archivos JS, HTML, CSS, e incluso poner puntos de interrupción (breakpoints).
 
 - Examina el flujo de ejecución paso a paso.
@@ -35,7 +35,7 @@ Aquí puedes ver y editar archivos JS, HTML, CSS, e incluso poner puntos de inte
 
 ---
 
-### 3. **Network**
+### 3. Network
 Muestra las peticiones y respuestas entre el navegador y el servidor.
 
 - Detecta si una imagen, archivo JS o API no está cargando.
@@ -46,7 +46,7 @@ Muestra las peticiones y respuestas entre el navegador y el servidor.
 
 ---
 
-### 4. **Breakpoints (puntos de interrupción)**
+### 4. Breakpoints (puntos de interrupción)
 Sirven para pausar la ejecución del código en un punto específico.
 
 - Añade un breakpoint en el archivo JS desde la pestaña "Sources".

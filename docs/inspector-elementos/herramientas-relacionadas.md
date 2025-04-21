@@ -8,7 +8,7 @@ El inspector de elementos es solo una de las muchas herramientas que los navegad
 
 ---
 
-## 🧰 Consola (Console)
+## Consola (Console)
 
 La **Consola** es donde puedes ver errores, advertencias y mensajes `console.log()` enviados desde JavaScript. También puedes ejecutar scripts directamente en el contexto de la página.
 
@@ -18,7 +18,7 @@ La **Consola** es donde puedes ver errores, advertencias y mensajes `console.log
 
 ---
 
-## 🧵 Network (Red)
+## Network (Red)
 
 La pestaña **Network** muestra todas las peticiones realizadas por la página: imágenes, archivos JS, CSS, APIs, etc.
 
@@ -28,7 +28,7 @@ La pestaña **Network** muestra todas las peticiones realizadas por la página: 
 
 ---
 
-## 🧩 Sources (Fuentes)
+## Sources (Fuentes)
 
 Aquí puedes explorar los archivos que componen tu página, poner **breakpoints** en JavaScript y ver el flujo del código.
 
@@ -38,7 +38,7 @@ Aquí puedes explorar los archivos que componen tu página, poner **breakpoints*
 
 ---
 
-## 📦 Application (Aplicación)
+## Application (Aplicación)
 
 La pestaña **Application** te muestra:
 
@@ -51,7 +51,7 @@ Esto es útil para ver cómo se almacena y gestiona la información en el navega
 
 ---
 
-## 🧪 Lighthouse
+## Lighthouse
 
 Una herramienta de auditoría automática que analiza tu página web y te da puntuaciones en:
 
@@ -64,13 +64,13 @@ Ideal para optimizar tu sitio web antes de publicarlo.
 
 ---
 
-## 📐 Responsive Design Mode
+## Responsive Design Mode
 
 Aunque está dentro de DevTools, merece una mención especial. Te permite **simular diferentes dispositivos móviles** y ajustar el diseño responsive de forma visual.
 
 ---
 
-## 🛠️ Extensiones útiles
+## Extensiones útiles
 
 - **Wappalyzer**: para saber qué tecnologías usa un sitio.
 - **ColorZilla**: para capturar colores directamente de la web.
