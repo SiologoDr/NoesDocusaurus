@@ -1,41 +1,76 @@
-# Website
+# Brota — Guía Interactiva del Inspector de Elementos 🛠️
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Bienvenido a **Brota**, un sitio de aprendizaje práctico que te enseña todo lo que necesitas saber sobre el **Inspector de Elementos** del navegador. Desde conceptos básicos hasta tips avanzados, este sitio está pensado para que aprendas de forma clara, rápida y sin complicaciones.
 
-### Installation
+---
 
+## 🌐 Sitio en Producción
+
+Accede aquí 👉 [https://923634894.facturalo.co/docusaurus/](https://923634894.facturalo.co/docusaurus/)
+
+---
+
+## 📚 Contenido del Proyecto
+
+La documentación está organizada en una sección principal llamada **Inspector de Elementos**, que contiene:
+
+- Introducción al inspector
+- Cómo se usa paso a paso
+- Para qué sirve
+- Elementos más comunes que puedes inspeccionar
+- Cómo modificar HTML y CSS desde el navegador
+- Cómo ver recursos internos (imágenes, scripts, etc.)
+- Tips avanzados y secretos del inspector
+- Atajos recomendados
+- Herramientas relacionadas
+- Casos prácticos de uso real
+
+---
+
+## 🛠️ Tecnologías Usadas
+
+- [Docusaurus v3.7](https://docusaurus.io/) como generador de documentación
+- React + JSX
+- CSS personalizado
+- Despliegue en cPanel (subdominio propio)
+
+---
+
+## 🧪 Comandos Útiles
+
+Instalar dependencias:
+
+```bash
+npm install
 ```
-$ yarn
+
+Desarrollo local:
+
+```bash
+npm run start
 ```
 
-### Local Development
+Generar sitio estático:
 
-```
-$ yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
+```bash
+npm run build
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+---
 
-### Deployment
+## 🚀 Deploy Manual a cPanel
 
-Using SSH:
+1. Ejecuta `npm run build`
+2. Comprime la carpeta `build` y renómbrala como `docusaurus`
+3. Sube esa carpeta al directorio `/public_html` de tu cPanel
+4. Accede a tu sitio en: [https://923634894.facturalo.co/docusaurus/](https://923634894.facturalo.co/docusaurus/)
 
-```
-$ USE_SSH=true yarn deploy
-```
+---
 
-Not using SSH:
+## 📎 Repositorio
 
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
+Este repositorio contiene todo el contenido fuente y documentación en Markdown (`.md`) para que puedas mantener o expandir el sitio fácilmente.
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+---
+
+¡Listo para que cualquiera aprenda a usar el inspector como todo un experto! 😎
