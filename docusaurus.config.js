@@ -8,7 +8,7 @@ const config = {
 
   url: 'https://923634894.facturalo.co',
 
-  baseUrl: '/docusaurus',
+  baseUrl: '/docusaurus/',
 
   organizationName: 'facebook',
   projectName: 'docusaurus', 
