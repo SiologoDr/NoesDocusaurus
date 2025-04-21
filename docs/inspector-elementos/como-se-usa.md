@@ -63,4 +63,4 @@ Cuando termines, simplemente presiona `Esc`, vuelve a hacer clic en el ícono de
 
 ---
 
-Ahora que sabes cómo abrir y explorar el inspector, en el siguiente capítulo aprenderás **para qué sirve** en detalle.
+> Ahora que sabes cómo abrir y explorar el inspector, en el siguiente capítulo aprenderás **para qué sirve** en detalle.

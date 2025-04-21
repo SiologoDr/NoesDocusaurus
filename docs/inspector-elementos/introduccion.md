@@ -15,7 +15,7 @@ Es una herramienta integrada en todos los navegadores modernos (como Chrome, Fir
 - Analizar el diseño, estilos, interacciones y recursos.
 - Depurar errores de estilo o comportamiento.
 
-📌 **Dato curioso**: ¡Todo esto lo puedes hacer sin afectar la página para otros usuarios! Solo tú verás los cambios.
+> 📌 **Dato curioso**: ¡Todo esto lo puedes hacer sin afectar la página para otros usuarios! Solo tú verás los cambios.
 
 ## ¿Para quién es útil?
 
@@ -39,4 +39,4 @@ Generalmente, puedes abrirlo de las siguientes formas:
 
 ---
 
-En los siguientes capítulos aprenderás a usarlo como un profesional, paso a paso, desde lo más básico hasta lo más avanzado.
+> En los siguientes capítulos aprenderás a usarlo como un profesional, paso a paso, desde lo más básico hasta lo más avanzado.
