@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css');
 
 /* Icono GitHub estilo moderno */
@@ -142,4 +143,110 @@ svg.iconExternalLink_nPIU {
   margin-top: 2rem;
   font-size: 0.85rem;
   color: var(--ifm-color-primary);
+}
+
+.table-of-contents {
+  border-left: 2px solid var(--ifm-color-primary);
+  font-family: 'Poppins', sans-serif;
+}
+
+.table-of-contents__link--active{
+  margin-left: 15px;
+}
+
+.pagination-nav__link--next {
+  background: var(--ifm-color-primary);
+  transition: all 0.2s ease-in-out;
+  border: none;
+}
+
+.pagination-nav__sublabel{
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+}
+
+.pagination-nav__label{
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  letter-spacing: 1.2px;
+}
+
+.pagination-nav__link--prev{
+  background: var(--ifm-color-primary);
+  transition: all 0.2s ease-in-out;
+  border: none;
+}
+
+.pagination-nav__link--next:hover {
+  background: #353535;
+}
+
+.pagination-nav__link--prev:hover {
+  background: #353535;
+}
+
+.breadcrumbs__link{
+  background-color: var(--ifm-color-primary);
+  color: #ffffff;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.markdown h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: var(--ifm-color-primary);
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-top: 15px;
+}
+
+.markdown p{
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.markdown li{
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.markdown h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  color: #353535;
+}
+
+.markdown h3 {
+  font-size: 1.4rem;
+  color: #0f172a;
+  font-weight: 600;
+}
+
+.tip {
+  background: #e0f2fe;
+  border-left: 4px solid #0ea5e9;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin: 1rem 0;
+  color: #0369a1;
+}
+
+.alert {
+  background: #fef2f2;
+  border-left: 4px solid #ef4444;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin: 1rem 0;
+  color: #991b1b;
+}
+
+.markdown img {
+  border-radius: 0.75rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  max-width: 100%;
+  margin: 1.5rem auto;
+  display: block;
 }

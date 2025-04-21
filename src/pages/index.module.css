@@ -52,6 +52,8 @@
   text-transform: uppercase;
   font-weight: 800;
   margin-top: 10px;
+  border-radius: 0px;
+  letter-spacing: 1.3px;
 }
 
 .customButton:hover {
