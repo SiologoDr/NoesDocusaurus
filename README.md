@@ -58,15 +58,6 @@ npm run build
 
 ---
 
-## 🚀 Deploy Manual a cPanel
-
-1. Ejecuta `npm run build`
-2. Comprime la carpeta `build` y renómbrala como `docusaurus`
-3. Sube esa carpeta al directorio `/public_html` de tu cPanel
-4. Accede a tu sitio en: [https://923634894.facturalo.co/docusaurus/](https://923634894.facturalo.co/docusaurus/)
-
----
-
 ## 📎 Repositorio
 
 Este repositorio contiene todo el contenido fuente y documentación en Markdown (`.md`) para que puedas mantener o expandir el sitio fácilmente.
