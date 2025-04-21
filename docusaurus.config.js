@@ -6,9 +6,9 @@ const config = {
   tagline: 'Explora desde lo básico hasta trucos avanzados del inspector de elementos. Aprende a analizar estructuras web, depurar errores y personalizar páginas como todo un experto. Todo explicado paso a paso y sin rodeos.',
   favicon: 'img/logo.png',
 
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://923634894.facturalo.co',
 
-  baseUrl: '/',
+  baseUrl: '/docusaurus',
 
   organizationName: 'facebook',
   projectName: 'docusaurus', 
