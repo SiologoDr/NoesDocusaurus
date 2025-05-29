@@ -2,6 +2,8 @@
 
 Bienvenido a **Brota**, un sitio de aprendizaje práctico que te enseña todo lo que necesitas saber sobre el **Inspector de Elementos** del navegador. Desde conceptos básicos hasta tips avanzados, este sitio está pensado para que aprendas de forma clara, rápida y sin complicaciones.
 
+> ⚠️ **Nota:** No fue posible publicar una demo del sitio en GitHub Pages. Para probar la aplicación, puedes clonar el repositorio o descargar el archivo ZIP.
+
 ---
 
 ## 🌐 Sitio en Producción
