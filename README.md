@@ -6,12 +6,6 @@ Bienvenido a **Brota**, un sitio de aprendizaje práctico que te enseña todo lo
 
 ---
 
-## 🌐 Sitio en Producción
-
-Accede aquí 👉 [https://923634894.facturalo.co/docusaurus/](https://923634894.facturalo.co/docusaurus/)
-
----
-
 ## 📚 Contenido del Proyecto
 
 La documentación está organizada en una sección principal llamada **Inspector de Elementos**, que contiene:
